@@ -34,7 +34,7 @@ module riscv_core_uvm_run;
 		#1;
 	end 
 	
-	final begin 
-		$display("Max Size = %0h",riscv_memory::max_size);
-	end 
+	//final begin 
+	//	$display("Max Size = %0h",riscv_memory::max_size);
+	//end 
 endmodule
